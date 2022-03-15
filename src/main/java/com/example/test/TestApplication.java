@@ -11,7 +11,7 @@ public class TestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TestApplication.class, args);
-       /* String str="This is Bubu";
+        String str="This is Bubu";
         char[] ch=str.toCharArray();
         String result = "";
         //String str1[]=str.split(" ");
@@ -19,9 +19,9 @@ public class TestApplication {
             result=s+result;
             System.out.println("hiiiiiiiiiiiiiiiiiiiiiiii"+s);
         }
-		System.out.println("hiiiiiiiiiiiiiiiiiiiiiiii"+result);*/
+        System.out.printf("hiiiiiiiiiiiiiiiiiiiiiiii%s%n", result);
 
-        Map<String,Integer> map=new HashMap<String,Integer>();
+        Map<String,Integer> map=new HashMap<>();
         map.put("a",1);
         map.put("b",4);
         map.put("c",2);
