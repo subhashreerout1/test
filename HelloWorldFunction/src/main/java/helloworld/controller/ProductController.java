@@ -11,8 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 import java.util.List;
-
-
 @RestController
 public class ProductController {
 
@@ -24,6 +22,7 @@ public class ProductController {
         return (List<Product>) productRepository.findAll();
     }
 
+    
 
     @GetMapping("/products")
     public Product createProduct() {
