@@ -23,8 +23,8 @@ Resources:
         HelloWorld:
           Type: Api
           Properties:
-            Path: /{proxy+}
-            Method: any
+            Path: /ping
+            Method: get
     Metadata:
       SamResourceId: HelloWorldFunction
 Outputs:

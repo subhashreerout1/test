@@ -12,7 +12,7 @@ Resources:
   HelloWorldFunction:
     Type: AWS::Serverless::Function
     Properties:
-      CodeUri: s3://bitbucket0112/a7486b09d217cc81063ef5aa3c68222d
+      CodeUri: s3://bubu1123/71f38d66d144352c5ff5c2843800f105
       Handler: helloworld.App::handleRequest
       Runtime: java8
       MemorySize: 512
@@ -23,8 +23,8 @@ Resources:
         HelloWorld:
           Type: Api
           Properties:
-            Path: /{proxy+}
-            Method: any
+            Path: /ping
+            Method: get
     Metadata:
       SamResourceId: HelloWorldFunction
 Outputs:

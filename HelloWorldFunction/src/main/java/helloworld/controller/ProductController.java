@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 public class ProductController {
 
-   @Autowired
+  /* @Autowired
     private ProductRepository productRepository;
 
     @GetMapping("/getproducts")
@@ -31,7 +31,7 @@ public class ProductController {
         product.setProductName("abc");
         product.setDescription("hggjhff");
         return productRepository.save(product);
-    }
+    }*/
 /*
     @PutMapping("/products/{productId}")
     public Product updateProduct(@PathVariable Long productId,

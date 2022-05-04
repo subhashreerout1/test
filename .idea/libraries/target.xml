@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="target">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/HelloWorldFunction/target/original-HelloWorld-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HelloWorldFunction/target/HelloWorld-1.0-shaded.jar!/" />
+      <root url="jar://$PROJECT_DIR$/HelloWorldFunction/target/HelloWorld-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
