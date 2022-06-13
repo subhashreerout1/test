@@ -21,7 +21,7 @@ public class ProductController {
     @GetMapping("/getproducts")
     public List<Product> getProducts() {
         return (List<Product>) productRepository.findAll();
-    }
+    }*/
 
 
 
@@ -30,10 +30,9 @@ public class ProductController {
         Product product=new Product ();
         product.setProductName("abc");
         product.setDescription("hggjhff");
-        return productRepository.save(product);
-    }*/
-/*
-    @PutMapping("/products/{productId}")
+        return product;
+    }
+    /*@PutMapping("/products/{productId}")
     public Product updateProduct(@PathVariable Long productId,
                                    @RequestBody Product productRequest) {
         return productRepository.findById(productId)
